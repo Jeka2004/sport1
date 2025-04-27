@@ -1,0 +1,92 @@
+.cl-news-container {
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .cl-news-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .cl-news-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .cl-news-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .cl-news-card {
+    position: relative; 
+    background-color: #fff;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .cl-news-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cl-news-content h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .cl-news-content p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .cl-news-meta {
+    font-size: 13px;
+    color: #777;
+    margin-top: 1rem;
+  }
+  
+  .team-name-overlay {
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003366; 
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cl-news-card:hover .team-name-overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .cl-back-btn {
+    position: absolute;
+    top: 140px; 
+    left: 40px;
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .nba-back-btn:hover {
+    background-color: #002244;
+  }

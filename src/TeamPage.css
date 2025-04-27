@@ -1,0 +1,71 @@
+.team-page-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .team-name {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .team-logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .team-history {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+  }
+  
+  .add-to-favorites-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #003366;
+    color: #003366;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    min-width: 260px; 
+    text-align: center;
+  }
+  
+  .add-to-favorites-btn:hover {
+    background-color: #e0e0e0;
+  }
+
+  .back-btn {
+    position: absolute;
+    top: 140px; 
+    left: 40px;
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .back-btn:hover {
+    background-color: #002244;
+  }
+  
+  
+  
+  
+
+  
